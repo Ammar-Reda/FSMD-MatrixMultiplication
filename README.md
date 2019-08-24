@@ -1,6 +1,6 @@
 # FSMD-MatrixMultiplication VHDL
 
-Finite State Machine with Datapath (FSMD) to calculate matrix multiplication of two 3x3 matrices each with 8-bit numbers. This project also contains an 8-bit multiplier. 
+Finite State Machine with Datapath (FSMD) to calculate matrix multiplication of two 3x3 matrices each with 8-bit numbers. 
 
 ## Getting Started
 
