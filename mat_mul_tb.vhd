@@ -11,7 +11,7 @@ end mat_mul_tb ;
 
 architecture behav of mat_mul_tb is
 
-    constant c_WIDTH : natural := 18;
+Â Â   constant c_WIDTH : natural := 18;
 	file vectors:text open read_mode is "mat_mul_vectors.vec";
 	file result_vectors:text open write_mode is "mat_mul_results.vec";
 	constant clockperiod:time:=100 ps;
@@ -36,7 +36,7 @@ begin
 
 clk <= not clk after clockperiod /2;
 rst <= '1' , '0' after 70 ps;
-start <= '0', '1' after 1000 ps, '0' after 2000 ps;
+start <= '0', '1' after 100 ps, '0' after 200 ps;
 mat_a_wr <='0', '1' after 70 ps;
 mat_b_wr <='0', '1' after 70 ps;
 
